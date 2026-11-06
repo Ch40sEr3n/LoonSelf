@@ -10,22 +10,26 @@
     {
       "upstream_tag": "Our-DomesticCore",
       "filename": "DomesticCore.lsr",
-      "policy": "DIRECT"
+      "policy": "DIRECT",
+      "display_tag": "DomesticCore"
     },
     {
       "upstream_tag": "Our-DomesticSupplement",
       "filename": "DomesticSupplement.lsr",
-      "policy": "DIRECT"
+      "policy": "DIRECT",
+      "display_tag": "DomesticSupplement"
     },
     {
       "upstream_tag": "Our-SteamCN",
       "filename": "SteamCN.lsr",
-      "policy": "DIRECT"
+      "policy": "DIRECT",
+      "display_tag": "SteamCN"
     },
     {
       "upstream_tag": "Our-DomesticAI",
       "filename": "DomesticAI.lsr",
-      "policy": "DIRECT"
+      "policy": "DIRECT",
+      "display_tag": "DomesticAI"
     },
     {
       "upstream_tag": "Our-ChatGPT",

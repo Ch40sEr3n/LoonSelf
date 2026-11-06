@@ -62,10 +62,10 @@ Paypal = select,Proxy,Auto,Fallback,ALL_Filter,img-url = https://raw.githubuserc
 
 [Remote Rule]
 https://raw.githubusercontent.com/Ch40sEr3n/LoonSelf/main/rules/upstream/AdBlockBalanced.lsr, policy=AdBlock, tag=AdBlock, enabled=true
-https://raw.githubusercontent.com/Ch40sEr3n/LoonSelf/main/rules/upstream/DomesticCore.lsr, policy=DIRECT, tag=DIRECT, enabled=true
-https://raw.githubusercontent.com/Ch40sEr3n/LoonSelf/main/rules/upstream/DomesticSupplement.lsr, policy=DIRECT, tag=DIRECT, enabled=true
-https://raw.githubusercontent.com/Ch40sEr3n/LoonSelf/main/rules/upstream/SteamCN.lsr, policy=DIRECT, tag=DIRECT, enabled=true
-https://raw.githubusercontent.com/Ch40sEr3n/LoonSelf/main/rules/upstream/DomesticAI.lsr, policy=DIRECT, tag=DIRECT, enabled=true
+https://raw.githubusercontent.com/Ch40sEr3n/LoonSelf/main/rules/upstream/DomesticCore.lsr, policy=DIRECT, tag=DomesticCore, enabled=true
+https://raw.githubusercontent.com/Ch40sEr3n/LoonSelf/main/rules/upstream/DomesticSupplement.lsr, policy=DIRECT, tag=DomesticSupplement, enabled=true
+https://raw.githubusercontent.com/Ch40sEr3n/LoonSelf/main/rules/upstream/SteamCN.lsr, policy=DIRECT, tag=SteamCN, enabled=true
+https://raw.githubusercontent.com/Ch40sEr3n/LoonSelf/main/rules/upstream/DomesticAI.lsr, policy=DIRECT, tag=DomesticAI, enabled=true
 https://raw.githubusercontent.com/Ch40sEr3n/LoonSelf/main/rules/upstream/ChatGPT.lsr, policy=ChatGPT, tag=ChatGPT, enabled=true
 https://raw.githubusercontent.com/Ch40sEr3n/LoonSelf/main/rules/upstream/Gemini.lsr, policy=Gemini, tag=Gemini, enabled=true
 https://raw.githubusercontent.com/Ch40sEr3n/LoonSelf/main/rules/upstream/GitHub.lsr, policy=GitHub, tag=GitHub, enabled=true
