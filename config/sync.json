@@ -1,0 +1,146 @@
+{
+  "schema_version": 1,
+  "repository": "Ch40sEr3n/LoonSelf",
+  "rules": [
+    {
+      "upstream_tag": "Our-AdBlock-Balanced",
+      "filename": "AdBlockBalanced.lsr",
+      "policy": "AdBlock"
+    },
+    {
+      "upstream_tag": "Our-DomesticCore",
+      "filename": "DomesticCore.lsr",
+      "policy": "DIRECT"
+    },
+    {
+      "upstream_tag": "Our-DomesticSupplement",
+      "filename": "DomesticSupplement.lsr",
+      "policy": "DIRECT"
+    },
+    {
+      "upstream_tag": "Our-SteamCN",
+      "filename": "SteamCN.lsr",
+      "policy": "DIRECT"
+    },
+    {
+      "upstream_tag": "Our-DomesticAI",
+      "filename": "DomesticAI.lsr",
+      "policy": "DIRECT"
+    },
+    {
+      "upstream_tag": "Our-ChatGPT",
+      "filename": "ChatGPT.lsr",
+      "policy": "ChatGPT"
+    },
+    {
+      "upstream_tag": "Our-Gemini",
+      "filename": "Gemini.lsr",
+      "policy": "Gemini"
+    },
+    {
+      "upstream_tag": "Our-GitHub",
+      "filename": "GitHub.lsr",
+      "policy": "GitHub"
+    },
+    {
+      "upstream_tag": "Our-Speedtest",
+      "filename": "Speedtest.lsr",
+      "policy": "Speedtest"
+    },
+    {
+      "upstream_tag": "Our-Cloudflare",
+      "filename": "Cloudflare.lsr",
+      "policy": "Cloudflare"
+    },
+    {
+      "upstream_tag": "Our-Service-Spotify",
+      "filename": "Service-Spotify.lsr",
+      "policy": "Spotify"
+    },
+    {
+      "upstream_tag": "Our-Service-Twitch",
+      "filename": "Service-Twitch.lsr",
+      "policy": "Twitch"
+    },
+    {
+      "upstream_tag": "Our-SharedInfrastructure",
+      "filename": "SharedInfrastructure.lsr",
+      "policy": "Proxy"
+    },
+    {
+      "upstream_tag": "Our-AppleOTA",
+      "filename": "AppleOTA.lsr",
+      "policy": "Apple"
+    },
+    {
+      "upstream_tag": "Our-SteamGlobal",
+      "filename": "SteamGlobal.lsr",
+      "policy": "Steam"
+    },
+    {
+      "upstream_tag": "Our-YouTube",
+      "filename": "YouTube.lsr",
+      "policy": "YouTube"
+    },
+    {
+      "upstream_tag": "Our-Netflix",
+      "filename": "Netflix.lsr",
+      "policy": "Netflix"
+    },
+    {
+      "upstream_tag": "Our-TikTok",
+      "filename": "TikTok.lsr",
+      "policy": "TikTok"
+    },
+    {
+      "upstream_tag": "Our-Bilibili",
+      "filename": "Bilibili.lsr",
+      "policy": "Bilibili"
+    },
+    {
+      "upstream_tag": "Our-Telegram",
+      "filename": "Telegram.lsr",
+      "policy": "Telegram"
+    },
+    {
+      "upstream_tag": "Our-Instagram",
+      "filename": "Instagram.lsr",
+      "policy": "Instagram"
+    },
+    {
+      "upstream_tag": "Our-Twitter",
+      "filename": "Twitter.lsr",
+      "policy": "Twitter"
+    },
+    {
+      "upstream_tag": "Our-Google",
+      "filename": "Google.lsr",
+      "policy": "Google"
+    },
+    {
+      "upstream_tag": "Our-Microsoft",
+      "filename": "Microsoft.lsr",
+      "policy": "Microsoft"
+    },
+    {
+      "upstream_tag": "Our-Apple",
+      "filename": "Apple.lsr",
+      "policy": "Apple"
+    },
+    {
+      "upstream_tag": "Our-Steam",
+      "filename": "Steam.lsr",
+      "policy": "Steam"
+    },
+    {
+      "upstream_tag": "Our-Paypal",
+      "filename": "Paypal.lsr",
+      "policy": "Paypal"
+    },
+    {
+      "upstream_tag": "Our-ChinaDirect-Scoped",
+      "filename": "ChinaDirect.lsr",
+      "policy": "DIRECT"
+    }
+  ]
+}

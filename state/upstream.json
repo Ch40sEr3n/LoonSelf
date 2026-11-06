@@ -1,0 +1,290 @@
+{
+  "schema_version": 1,
+  "upstream": "YohakuSama/loonkit",
+  "release": "v7.0.10",
+  "upstream_commit": null,
+  "manifest_sha256": "837198c4e282623c9b496fd4e7f496de04d9dcc36a2f0ff62a5e78ce89883c69",
+  "repository": "Ch40sEr3n/LoonSelf",
+  "resources": [
+    {
+      "uri": "https://raw.githubusercontent.com/YohakuSama/loonkit/673e2b470b45f291ebf15bbf9dca232d10709bad/rules/releases/v7.0.3/AdBlockBalanced.lsr",
+      "commit": "673e2b470b45f291ebf15bbf9dca232d10709bad",
+      "path": "rules/releases/v7.0.3/AdBlockBalanced.lsr",
+      "policy": "AdBlock",
+      "tag": "Our-AdBlock-Balanced",
+      "enabled": "true",
+      "sha256": "eb4b30b96232bd76f4308f2333478ed94d1c2d885079ffd0da4b7b5f66738349",
+      "matcher_count": 76895
+    },
+    {
+      "uri": "https://raw.githubusercontent.com/YohakuSama/loonkit/673e2b470b45f291ebf15bbf9dca232d10709bad/rules/releases/v7.0.3/DomesticCore.lsr",
+      "commit": "673e2b470b45f291ebf15bbf9dca232d10709bad",
+      "path": "rules/releases/v7.0.3/DomesticCore.lsr",
+      "policy": "DIRECT",
+      "tag": "Our-DomesticCore",
+      "enabled": "true",
+      "sha256": "1b0251bad38add15db47beb0c77a8512b7b6a048a86fb6af49a865cd56980e89",
+      "matcher_count": 6
+    },
+    {
+      "uri": "https://raw.githubusercontent.com/YohakuSama/loonkit/673e2b470b45f291ebf15bbf9dca232d10709bad/rules/releases/v7.0.3/DomesticSupplement.lsr",
+      "commit": "673e2b470b45f291ebf15bbf9dca232d10709bad",
+      "path": "rules/releases/v7.0.3/DomesticSupplement.lsr",
+      "policy": "DIRECT",
+      "tag": "Our-DomesticSupplement",
+      "enabled": "true",
+      "sha256": "88a1856295532f0859916e01d354f08e0eb05909bf3a7f0d8101c17a54ba7f9c",
+      "matcher_count": 3
+    },
+    {
+      "uri": "https://raw.githubusercontent.com/YohakuSama/loonkit/673e2b470b45f291ebf15bbf9dca232d10709bad/rules/releases/v7.0.3/SteamCN.lsr",
+      "commit": "673e2b470b45f291ebf15bbf9dca232d10709bad",
+      "path": "rules/releases/v7.0.3/SteamCN.lsr",
+      "policy": "DIRECT",
+      "tag": "Our-SteamCN",
+      "enabled": "true",
+      "sha256": "96b5fb646a81021f47a1cd48c67f90c544f0505c072bafa0cabda69f7a42fe7e",
+      "matcher_count": 13
+    },
+    {
+      "uri": "https://raw.githubusercontent.com/YohakuSama/loonkit/673e2b470b45f291ebf15bbf9dca232d10709bad/rules/releases/v7.0.3/DomesticAI.lsr",
+      "commit": "673e2b470b45f291ebf15bbf9dca232d10709bad",
+      "path": "rules/releases/v7.0.3/DomesticAI.lsr",
+      "policy": "DIRECT",
+      "tag": "Our-DomesticAI",
+      "enabled": "true",
+      "sha256": "9254c600bd8e9f4d08f4a004e3f9945b52241972dc817b4e61d943224229ebf6",
+      "matcher_count": 10
+    },
+    {
+      "uri": "https://raw.githubusercontent.com/YohakuSama/loonkit/673e2b470b45f291ebf15bbf9dca232d10709bad/rules/releases/v7.0.3/ChatGPT.lsr",
+      "commit": "673e2b470b45f291ebf15bbf9dca232d10709bad",
+      "path": "rules/releases/v7.0.3/ChatGPT.lsr",
+      "policy": "ChatGPT",
+      "tag": "Our-ChatGPT",
+      "enabled": "true",
+      "sha256": "a3b9481b967f0e6ca5a4a72fe66bd69d5b500192edb1e981e2833cb6b2cfe2bf",
+      "matcher_count": 19
+    },
+    {
+      "uri": "https://raw.githubusercontent.com/YohakuSama/loonkit/673e2b470b45f291ebf15bbf9dca232d10709bad/rules/releases/v7.0.3/Gemini.lsr",
+      "commit": "673e2b470b45f291ebf15bbf9dca232d10709bad",
+      "path": "rules/releases/v7.0.3/Gemini.lsr",
+      "policy": "Gemini",
+      "tag": "Our-Gemini",
+      "enabled": "true",
+      "sha256": "37ae274df700c1870139a587e3ea930ab43d0eab80c004b7200ce250dfed4602",
+      "matcher_count": 20
+    },
+    {
+      "uri": "https://raw.githubusercontent.com/YohakuSama/loonkit/673e2b470b45f291ebf15bbf9dca232d10709bad/rules/releases/v7.0.3/GitHub.lsr",
+      "commit": "673e2b470b45f291ebf15bbf9dca232d10709bad",
+      "path": "rules/releases/v7.0.3/GitHub.lsr",
+      "policy": "GitHub",
+      "tag": "Our-GitHub",
+      "enabled": "true",
+      "sha256": "abc396709f9bacafa5cc9b175245f5072b8348476065dd9dc3f75051aa9db365",
+      "matcher_count": 29
+    },
+    {
+      "uri": "https://raw.githubusercontent.com/YohakuSama/loonkit/673e2b470b45f291ebf15bbf9dca232d10709bad/rules/releases/v7.0.3/Speedtest.lsr",
+      "commit": "673e2b470b45f291ebf15bbf9dca232d10709bad",
+      "path": "rules/releases/v7.0.3/Speedtest.lsr",
+      "policy": "Speedtest",
+      "tag": "Our-Speedtest",
+      "enabled": "true",
+      "sha256": "80f0bfb469d1734b4758a4d2a189097d7e49618e9de00aea3c5da16ee65cb1ec",
+      "matcher_count": 8
+    },
+    {
+      "uri": "https://raw.githubusercontent.com/YohakuSama/loonkit/673e2b470b45f291ebf15bbf9dca232d10709bad/rules/releases/v7.0.3/Cloudflare.lsr",
+      "commit": "673e2b470b45f291ebf15bbf9dca232d10709bad",
+      "path": "rules/releases/v7.0.3/Cloudflare.lsr",
+      "policy": "Cloudflare",
+      "tag": "Our-Cloudflare",
+      "enabled": "true",
+      "sha256": "2597abd3ba74b8ee6c6b5a2ae4ade140c08908b05c6ee79ee9cf159edca0d0e9",
+      "matcher_count": 7
+    },
+    {
+      "uri": "https://raw.githubusercontent.com/YohakuSama/loonkit/673e2b470b45f291ebf15bbf9dca232d10709bad/rules/releases/v7.0.3/Service-Spotify.lsr",
+      "commit": "673e2b470b45f291ebf15bbf9dca232d10709bad",
+      "path": "rules/releases/v7.0.3/Service-Spotify.lsr",
+      "policy": "Spotify",
+      "tag": "Our-Service-Spotify",
+      "enabled": "true",
+      "sha256": "c77e7aefa435a909434f422f2c256767d2640098cfa83d44cd3cc502e6606b93",
+      "matcher_count": 15
+    },
+    {
+      "uri": "https://raw.githubusercontent.com/YohakuSama/loonkit/673e2b470b45f291ebf15bbf9dca232d10709bad/rules/releases/v7.0.3/Service-Twitch.lsr",
+      "commit": "673e2b470b45f291ebf15bbf9dca232d10709bad",
+      "path": "rules/releases/v7.0.3/Service-Twitch.lsr",
+      "policy": "Twitch",
+      "tag": "Our-Service-Twitch",
+      "enabled": "true",
+      "sha256": "61c3d2dd1d96ff7363a96c12e16febb40c794c3725751d9e1c93a9e3b623ddbb",
+      "matcher_count": 7
+    },
+    {
+      "uri": "https://raw.githubusercontent.com/YohakuSama/loonkit/673e2b470b45f291ebf15bbf9dca232d10709bad/rules/releases/v7.0.3/SharedInfrastructure.lsr",
+      "commit": "673e2b470b45f291ebf15bbf9dca232d10709bad",
+      "path": "rules/releases/v7.0.3/SharedInfrastructure.lsr",
+      "policy": "Proxy",
+      "tag": "Our-SharedInfrastructure",
+      "enabled": "true",
+      "sha256": "4a8dd4509829a7a661ec1f985a9b9b5d33bd2fef294fa146d90366ab4215e76a",
+      "matcher_count": 8
+    },
+    {
+      "uri": "https://raw.githubusercontent.com/YohakuSama/loonkit/673e2b470b45f291ebf15bbf9dca232d10709bad/rules/releases/v7.0.3/AppleOTA.lsr",
+      "commit": "673e2b470b45f291ebf15bbf9dca232d10709bad",
+      "path": "rules/releases/v7.0.3/AppleOTA.lsr",
+      "policy": "Apple",
+      "tag": "Our-AppleOTA",
+      "enabled": "true",
+      "sha256": "7330e1e6f9b9d9330acc3c28ae63683244f41860aa1543a7619a6092d723ed4f",
+      "matcher_count": 82
+    },
+    {
+      "uri": "https://raw.githubusercontent.com/YohakuSama/loonkit/673e2b470b45f291ebf15bbf9dca232d10709bad/rules/releases/v7.0.3/SteamGlobal.lsr",
+      "commit": "673e2b470b45f291ebf15bbf9dca232d10709bad",
+      "path": "rules/releases/v7.0.3/SteamGlobal.lsr",
+      "policy": "Steam",
+      "tag": "Our-SteamGlobal",
+      "enabled": "true",
+      "sha256": "9eafb51fe5a7650e44ddda96108814436a685f45e36ad58af26a8eddecf840b1",
+      "matcher_count": 4
+    },
+    {
+      "uri": "https://raw.githubusercontent.com/YohakuSama/loonkit/673e2b470b45f291ebf15bbf9dca232d10709bad/rules/releases/v7.0.3/YouTube.lsr",
+      "commit": "673e2b470b45f291ebf15bbf9dca232d10709bad",
+      "path": "rules/releases/v7.0.3/YouTube.lsr",
+      "policy": "YouTube",
+      "tag": "Our-YouTube",
+      "enabled": "true",
+      "sha256": "eb9217f2f4acc25b3e95eb84aebb05d5b17725801c6ecadb6fcd95116d39fff4",
+      "matcher_count": 183
+    },
+    {
+      "uri": "https://raw.githubusercontent.com/YohakuSama/loonkit/673e2b470b45f291ebf15bbf9dca232d10709bad/rules/releases/v7.0.5/Netflix.lsr",
+      "commit": "673e2b470b45f291ebf15bbf9dca232d10709bad",
+      "path": "rules/releases/v7.0.5/Netflix.lsr",
+      "policy": "Netflix",
+      "tag": "Our-Netflix",
+      "enabled": "true",
+      "sha256": "99f7b98f90efa79ded0f1516b1489c21113a66caffd95f4a03afcc2c8160568d",
+      "matcher_count": 30
+    },
+    {
+      "uri": "https://raw.githubusercontent.com/YohakuSama/loonkit/673e2b470b45f291ebf15bbf9dca232d10709bad/rules/releases/v7.0.5/TikTok.lsr",
+      "commit": "673e2b470b45f291ebf15bbf9dca232d10709bad",
+      "path": "rules/releases/v7.0.5/TikTok.lsr",
+      "policy": "TikTok",
+      "tag": "Our-TikTok",
+      "enabled": "true",
+      "sha256": "7ed1afd1772a81cedf24c845677c05b9b9cb4fcace4bbf026223dc6f50436e14",
+      "matcher_count": 54
+    },
+    {
+      "uri": "https://raw.githubusercontent.com/YohakuSama/loonkit/673e2b470b45f291ebf15bbf9dca232d10709bad/rules/releases/v7.0.3/Bilibili.lsr",
+      "commit": "673e2b470b45f291ebf15bbf9dca232d10709bad",
+      "path": "rules/releases/v7.0.3/Bilibili.lsr",
+      "policy": "Bilibili",
+      "tag": "Our-Bilibili",
+      "enabled": "true",
+      "sha256": "bcc9b0d31945813c3e11b07c2d936278eecc22f9557b80cf5663a78b87aec7c7",
+      "matcher_count": 120
+    },
+    {
+      "uri": "https://raw.githubusercontent.com/YohakuSama/loonkit/673e2b470b45f291ebf15bbf9dca232d10709bad/rules/releases/v7.0.3/Telegram.lsr",
+      "commit": "673e2b470b45f291ebf15bbf9dca232d10709bad",
+      "path": "rules/releases/v7.0.3/Telegram.lsr",
+      "policy": "Telegram",
+      "tag": "Our-Telegram",
+      "enabled": "true",
+      "sha256": "f4161f0e35f99c03dc4cc9cabcb6df1a5d5d5a192756ec0892eb23f7630a8a6a",
+      "matcher_count": 43
+    },
+    {
+      "uri": "https://raw.githubusercontent.com/YohakuSama/loonkit/673e2b470b45f291ebf15bbf9dca232d10709bad/rules/releases/v7.0.3/Instagram.lsr",
+      "commit": "673e2b470b45f291ebf15bbf9dca232d10709bad",
+      "path": "rules/releases/v7.0.3/Instagram.lsr",
+      "policy": "Instagram",
+      "tag": "Our-Instagram",
+      "enabled": "true",
+      "sha256": "b2b4013ba68a35b4a046db5456b684b071a5ad11367236ba62716a0ab9556342",
+      "matcher_count": 73
+    },
+    {
+      "uri": "https://raw.githubusercontent.com/YohakuSama/loonkit/673e2b470b45f291ebf15bbf9dca232d10709bad/rules/releases/v7.0.3/Twitter.lsr",
+      "commit": "673e2b470b45f291ebf15bbf9dca232d10709bad",
+      "path": "rules/releases/v7.0.3/Twitter.lsr",
+      "policy": "Twitter",
+      "tag": "Our-Twitter",
+      "enabled": "true",
+      "sha256": "519a95ff66fa131ebf7cef66eca5a65009d5aa741e97176a576e42ea71cb18a2",
+      "matcher_count": 31
+    },
+    {
+      "uri": "https://raw.githubusercontent.com/YohakuSama/loonkit/673e2b470b45f291ebf15bbf9dca232d10709bad/rules/releases/v7.0.3/Google.lsr",
+      "commit": "673e2b470b45f291ebf15bbf9dca232d10709bad",
+      "path": "rules/releases/v7.0.3/Google.lsr",
+      "policy": "Google",
+      "tag": "Our-Google",
+      "enabled": "true",
+      "sha256": "5f92ffd16c45e7391e75d3d762596f5ef6f7dd0162dac9f91feb50f11cb6abe9",
+      "matcher_count": 681
+    },
+    {
+      "uri": "https://raw.githubusercontent.com/YohakuSama/loonkit/673e2b470b45f291ebf15bbf9dca232d10709bad/rules/releases/v7.0.3/Microsoft.lsr",
+      "commit": "673e2b470b45f291ebf15bbf9dca232d10709bad",
+      "path": "rules/releases/v7.0.3/Microsoft.lsr",
+      "policy": "Microsoft",
+      "tag": "Our-Microsoft",
+      "enabled": "true",
+      "sha256": "0ddfe51a68c7da4def4cf0599d666d0725299c807988e65cd912be1070ab339c",
+      "matcher_count": 645
+    },
+    {
+      "uri": "https://raw.githubusercontent.com/YohakuSama/loonkit/673e2b470b45f291ebf15bbf9dca232d10709bad/rules/releases/v7.0.3/Apple.lsr",
+      "commit": "673e2b470b45f291ebf15bbf9dca232d10709bad",
+      "path": "rules/releases/v7.0.3/Apple.lsr",
+      "policy": "Apple",
+      "tag": "Our-Apple",
+      "enabled": "true",
+      "sha256": "aed19bd3798bf72196c33bc08b008f817ead1f1ce15888458a48a624d1c0071e",
+      "matcher_count": 1561
+    },
+    {
+      "uri": "https://raw.githubusercontent.com/YohakuSama/loonkit/673e2b470b45f291ebf15bbf9dca232d10709bad/rules/releases/v7.0.3/Steam.lsr",
+      "commit": "673e2b470b45f291ebf15bbf9dca232d10709bad",
+      "path": "rules/releases/v7.0.3/Steam.lsr",
+      "policy": "Steam",
+      "tag": "Our-Steam",
+      "enabled": "true",
+      "sha256": "04deeddbd0608e461cca5739df5e1fe14ed70722792ffced1989d6c0eda4fc98",
+      "matcher_count": 52
+    },
+    {
+      "uri": "https://raw.githubusercontent.com/YohakuSama/loonkit/673e2b470b45f291ebf15bbf9dca232d10709bad/rules/releases/v7.0.3/Paypal.lsr",
+      "commit": "673e2b470b45f291ebf15bbf9dca232d10709bad",
+      "path": "rules/releases/v7.0.3/Paypal.lsr",
+      "policy": "Paypal",
+      "tag": "Our-Paypal",
+      "enabled": "true",
+      "sha256": "d6136e2ba0e223ecafda8ddb24ca84ad2743cf66986eb25eec4cce4c311f3f2e",
+      "matcher_count": 246
+    },
+    {
+      "uri": "https://raw.githubusercontent.com/YohakuSama/loonkit/673e2b470b45f291ebf15bbf9dca232d10709bad/rules/releases/v7.0.5/ChinaDirect.lsr",
+      "commit": "673e2b470b45f291ebf15bbf9dca232d10709bad",
+      "path": "rules/releases/v7.0.5/ChinaDirect.lsr",
+      "policy": "DIRECT",
+      "tag": "Our-ChinaDirect-Scoped",
+      "enabled": "true",
+      "sha256": "ba9508eab3a0b49d516f8e47bc6408853587b78101a2b3061974677b7d1487a6",
+      "matcher_count": 114705
+    }
+  ]
+}
