@@ -2,7 +2,7 @@
   "schema_version": 1,
   "upstream": "YohakuSama/loonkit",
   "release": "v7.0.10",
-  "upstream_commit": null,
+  "upstream_commit": "3d4b594875a7dad54daec69117b9b5572c5d9c41",
   "manifest_sha256": "837198c4e282623c9b496fd4e7f496de04d9dcc36a2f0ff62a5e78ce89883c69",
   "repository": "Ch40sEr3n/LoonSelf",
   "resources": [
