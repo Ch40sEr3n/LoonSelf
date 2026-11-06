@@ -14,11 +14,13 @@ real-ip = *.apple.com,*.icloud.com,dns.msftncsi.com,*.srv.nintendo.net,*.xboxliv
 disable-stun = true
 udp-fallback-mode = REJECT
 domain-reject-mode = DNS
-dns-reject-mode = LOOPBACKIP
+dns-reject-mode = LoopbackIP
 proxy-test-url = http://www.bing.com
 internet-test-url = http://wifi.vivo.com.cn/generate_204
 test-timeout = 5
 allow-wifi-access = false
+wifi-access-http-port = 7222
+wifi-access-socks5-port = 7221
 
 [Proxy]
 
@@ -100,4 +102,17 @@ GEOIP,CN,DIRECT,no-resolve
 FINAL,Final
 
 [Plugin]
+https://kelee.one/Tool/Loon/Lpx/BlockAdvertisers.lpx, pin=true, enabled=true
+https://kelee.one/Tool/Loon/Lpx/Block_HTTPDNS.lpx, pin=true, enabled=true
+https://kelee.one/Tool/Loon/Lpx/Prevent_DNS_Leaks.lpx, pin=true, enabled=true
+https://kelee.one/Tool/Loon/Lpx/XiaoHeiHe_remove_ads.lpx, enabled=true
+https://kelee.one/Tool/Loon/Lpx/FleaMarket_remove_ads.lpx, enabled=true
+https://kelee.one/Tool/Loon/Lpx/JD_remove_ads.lpx, enabled=true
+https://kelee.one/Tool/Loon/Lpx/Taobao_remove_ads.lpx, enabled=true
+https://kelee.one/Tool/Loon/Lpx/LuckinCoffee_remove_ads.lpx, enabled=true
+https://kelee.one/Tool/Loon/Lpx/CoolApk_remove_ads.lpx, enabled=true
+https://kelee.one/Tool/Loon/Lpx/Amap_remove_ads.lpx, enabled=true
+https://kelee.one/Tool/Loon/Lpx/DiDi_remove_ads.lpx, enabled=true
+https://kelee.one/Tool/Loon/Lpx/Jump_remove_ads.lpx, enabled=true
+https://kelee.one/Tool/Loon/Lpx/12306_remove_ads.lpx, enabled=true
 https://raw.githubusercontent.com/YohakuSama/loonkit/f79361451216850fecf9f9914720fb4f1c36861f/release/Network_Diagnostics.plugin, enabled=true
