@@ -131,7 +131,7 @@ def check_change(old, new, allow_large):
             'Large rule change needs review; inspect changes before using --allow-large-change')
 
 
-def validate_profile(text):
+def validate_profile(text, selections=()):
     data = public_config(text)
     known = {'DIRECT', 'REJECT'}
     names = [s.split('=', 1)[0].strip() for s in data['[Proxy Group]']]
@@ -150,9 +150,13 @@ def validate_profile(text):
             visit(child, stack | {name})
     for name in names:
         visit(name, set())
+    approved = {choice['filename']: choice for choice in selections}
     for line in data.get('[Remote Rule]', []):
-        _, attrs = remote(line)
-        require(attrs['policy'] in known and attrs['tag'] == attrs['policy'], 'Remote policy/tag mismatch')
+        url, attrs = remote(line)
+        choice = approved.get(urlsplit(url).path.rsplit('/', 1)[-1])
+        expected_tag = choice.get('display_tag', choice['policy']) if choice else attrs['policy']
+        require(attrs['policy'] in known and (choice is None or attrs['policy'] == choice['policy'])
+                and attrs['tag'] == expected_tag, 'Remote policy/tag mismatch')
     rules = data.get('[Rule]', [])
     require(rules and rules[-1].startswith('FINAL,'), 'FINAL must be the last local rule')
     for line in rules:
@@ -201,11 +205,11 @@ def render(base, selected, repository):
         seen.add(name)
         require(attrs['policy'] == choice['policy'], 'Template rule policy changed')
         address = (RAW + repository + '/main/rules/upstream/' + choice['filename']) if repository else spec['uri']
-        replacements[line] = address + ', policy=' + choice['policy'] + ', tag=' + choice['policy'] + ', enabled=true'
+        replacements[line] = address + ', policy=' + choice['policy'] + ', tag=' + choice.get('display_tag', choice['policy']) + ', enabled=true'
     require(seen == set(by_name), 'Template and sync plan differ')
     lines = [replacements.get(line.strip(), line) for line in base.splitlines()]
     result = '\n'.join(lines) + '\n'
-    validate_profile(result)
+    validate_profile(result, [choice for choice, _ in selected])
     return result
 
 
@@ -235,8 +239,8 @@ def check():
     settings = json.loads((ROOT / 'config/sync.json').read_text())
     base = (ROOT / 'config/base.lcf').read_text()
     state = json.loads((ROOT / 'state/upstream.json').read_text())
-    validate_profile(base)
-    validate_profile((ROOT / 'LoonKit.lcf').read_text())
+    validate_profile(base, settings['rules'])
+    validate_profile((ROOT / 'LoonKit.lcf').read_text(), settings['rules'])
     selected = [(choice, spec) for choice, spec in zip(settings['rules'], state['resources'])]
     require(len(selected) == len(settings['rules']) == len(state['resources']), 'Incomplete lock file')
     for choice, spec in selected:
@@ -262,7 +266,7 @@ def main():
         return
     settings = json.loads((ROOT / 'config/sync.json').read_text())
     base = (ROOT / 'config/base.lcf').read_text()
-    validate_profile(base)
+    validate_profile(base, settings['rules'])
     if args.offline_dir:
         cache = args.offline_dir
         head_file = cache / 'upstream-head.json'

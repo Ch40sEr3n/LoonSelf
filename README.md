@@ -25,6 +25,8 @@ https://raw.githubusercontent.com/Ch40sEr3n/LoonSelf/main/LoonKit.lcf
 
 自动合并仅针对已批准的规则内容和规则地址。上游增删策略、规则缺失、归属改变或规则内容大幅变化会停止更新，等待核对。未知配置区块、未批准的 URL 或疑似凭据也会阻止公开发布，保留已有公开版本。
 
+规则显示名通常与策略名称一致。DomesticCore、DomesticSupplement、SteamCN、DomesticAI 按个人设置保留独立显示名，分流策略均为 DIRECT；这些名称由同步清单中的 `display_tag` 明确指定。
+
 定时任务可能延迟。令牌过期或校验失败时，在私有仓库的 Actions 查看运行结果。
 
 ## 文件

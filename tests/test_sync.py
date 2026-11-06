@@ -10,6 +10,20 @@ spec.loader.exec_module(sync)
 
 
 class SyncTests(unittest.TestCase):
+    def test_approved_display_name_is_preserved_without_changing_direct_policy(self):
+        plan = json.loads((ROOT / 'config/sync.json').read_text())
+        state = json.loads((ROOT / 'state/upstream.json').read_text())
+        for choice in plan['rules']:
+            if choice['filename'] == 'DomesticCore.lsr':
+                choice['display_tag'] = 'DomesticCore'
+        result = sync.render((ROOT / 'config/base.lcf').read_text(), list(zip(plan['rules'], state['resources'])), 'example/LoonSelf')
+        self.assertIn('DomesticCore.lsr, policy=DIRECT, tag=DomesticCore, enabled=true', result)
+        sync.validate_profile(result, plan['rules'])
+        with self.assertRaisesRegex(ValueError, 'policy/tag mismatch'):
+            sync.validate_profile(result.replace('tag=DomesticCore,', 'tag=UnapprovedName,'), plan['rules'])
+        with self.assertRaisesRegex(ValueError, 'policy/tag mismatch'):
+            sync.validate_profile(result.replace('DomesticCore.lsr, policy=DIRECT,', 'DomesticCore.lsr, policy=Proxy,'), plan['rules'])
+
     def test_rejects_corrupted_rule_download(self):
         record = {'path': 'test.lsr', 'sha256': sync.sha(b'DOMAIN,valid.example\n'), 'matcher_count': 1}
         with self.assertRaisesRegex(ValueError, 'SHA256'):
