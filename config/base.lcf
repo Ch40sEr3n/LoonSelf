@@ -1,5 +1,4 @@
-# LoonKit v7.0.10 — Personal
-# 基于 LoonKit 原版精简；来源：https://github.com/YohakuSama/loonkit
+# LoonSelf — generated public configuration
 
 [General]
 dns-server = 223.5.5.5,223.6.6.6
@@ -46,7 +45,6 @@ Microsoft = select,DIRECT,Proxy,Auto,Fallback,ALL_Filter,img-url = https://raw.g
 Apple = select,DIRECT,Proxy,Auto,Fallback,ALL_Filter,img-url = https://raw.githubusercontent.com/YohakuSama/loonkit/d82214d057b27a68d6b9c07c61fb126a69adc903/icons/Apple.png
 Cloudflare = select,Proxy,Auto,Fallback,ALL_Filter,img-url = https://raw.githubusercontent.com/YohakuSama/loonkit/d82214d057b27a68d6b9c07c61fb126a69adc903/icons/Cloudflare.png
 Speedtest = select,DIRECT,Proxy,Auto,Fallback,ALL_Filter,img-url = https://raw.githubusercontent.com/YohakuSama/loonkit/d82214d057b27a68d6b9c07c61fb126a69adc903/icons/Speedtest.png
-# 影音：Lumen 固定直连
 Lumen = select,DIRECT,img-url = https://www.lumen.ax/avatar-default.png
 YouTube = select,Proxy,Auto,Fallback,ALL_Filter,img-url = https://raw.githubusercontent.com/YohakuSama/loonkit/d82214d057b27a68d6b9c07c61fb126a69adc903/icons/YouTube.png
 Netflix = select,Proxy,Auto,Fallback,ALL_Filter,img-url = https://raw.githubusercontent.com/YohakuSama/loonkit/d82214d057b27a68d6b9c07c61fb126a69adc903/icons/Netflix.png
@@ -61,40 +59,39 @@ Steam = select,Proxy,Auto,Fallback,DIRECT,ALL_Filter,img-url = https://raw.githu
 Paypal = select,Proxy,Auto,Fallback,ALL_Filter,img-url = https://raw.githubusercontent.com/YohakuSama/loonkit/d82214d057b27a68d6b9c07c61fb126a69adc903/icons/Paypal.png
 
 [Remote Rule]
-https://raw.githubusercontent.com/YohakuSama/loonkit/673e2b470b45f291ebf15bbf9dca232d10709bad/rules/releases/v7.0.3/AdBlockBalanced.lsr, policy=AdBlock, tag=AdBlock, enabled=true
-https://raw.githubusercontent.com/YohakuSama/loonkit/673e2b470b45f291ebf15bbf9dca232d10709bad/rules/releases/v7.0.3/DomesticCore.lsr, policy=DIRECT, tag=DIRECT, enabled=true
-https://raw.githubusercontent.com/YohakuSama/loonkit/673e2b470b45f291ebf15bbf9dca232d10709bad/rules/releases/v7.0.3/DomesticSupplement.lsr, policy=DIRECT, tag=DIRECT, enabled=true
-https://raw.githubusercontent.com/YohakuSama/loonkit/673e2b470b45f291ebf15bbf9dca232d10709bad/rules/releases/v7.0.3/SteamCN.lsr, policy=DIRECT, tag=DIRECT, enabled=true
-https://raw.githubusercontent.com/YohakuSama/loonkit/673e2b470b45f291ebf15bbf9dca232d10709bad/rules/releases/v7.0.3/DomesticAI.lsr, policy=DIRECT, tag=DIRECT, enabled=true
-https://raw.githubusercontent.com/YohakuSama/loonkit/673e2b470b45f291ebf15bbf9dca232d10709bad/rules/releases/v7.0.3/ChatGPT.lsr, policy=ChatGPT, tag=ChatGPT, enabled=true
-https://raw.githubusercontent.com/YohakuSama/loonkit/673e2b470b45f291ebf15bbf9dca232d10709bad/rules/releases/v7.0.3/Gemini.lsr, policy=Gemini, tag=Gemini, enabled=true
-https://raw.githubusercontent.com/YohakuSama/loonkit/673e2b470b45f291ebf15bbf9dca232d10709bad/rules/releases/v7.0.3/GitHub.lsr, policy=GitHub, tag=GitHub, enabled=true
-https://raw.githubusercontent.com/YohakuSama/loonkit/673e2b470b45f291ebf15bbf9dca232d10709bad/rules/releases/v7.0.3/Speedtest.lsr, policy=Speedtest, tag=Speedtest, enabled=true
-https://raw.githubusercontent.com/YohakuSama/loonkit/673e2b470b45f291ebf15bbf9dca232d10709bad/rules/releases/v7.0.3/Cloudflare.lsr, policy=Cloudflare, tag=Cloudflare, enabled=true
-https://raw.githubusercontent.com/YohakuSama/loonkit/673e2b470b45f291ebf15bbf9dca232d10709bad/rules/releases/v7.0.3/Service-Spotify.lsr, policy=Spotify, tag=Spotify, enabled=true
-https://raw.githubusercontent.com/YohakuSama/loonkit/673e2b470b45f291ebf15bbf9dca232d10709bad/rules/releases/v7.0.3/Service-Twitch.lsr, policy=Twitch, tag=Twitch, enabled=true
-https://raw.githubusercontent.com/YohakuSama/loonkit/673e2b470b45f291ebf15bbf9dca232d10709bad/rules/releases/v7.0.3/SharedInfrastructure.lsr, policy=Proxy, tag=Proxy, enabled=true
-https://raw.githubusercontent.com/YohakuSama/loonkit/673e2b470b45f291ebf15bbf9dca232d10709bad/rules/releases/v7.0.3/AppleOTA.lsr, policy=Apple, tag=Apple, enabled=true
-https://raw.githubusercontent.com/YohakuSama/loonkit/673e2b470b45f291ebf15bbf9dca232d10709bad/rules/releases/v7.0.3/SteamGlobal.lsr, policy=Steam, tag=Steam, enabled=true
-https://raw.githubusercontent.com/YohakuSama/loonkit/673e2b470b45f291ebf15bbf9dca232d10709bad/rules/releases/v7.0.3/YouTube.lsr, policy=YouTube, tag=YouTube, enabled=true
-https://raw.githubusercontent.com/YohakuSama/loonkit/673e2b470b45f291ebf15bbf9dca232d10709bad/rules/releases/v7.0.5/Netflix.lsr, policy=Netflix, tag=Netflix, enabled=true
-https://raw.githubusercontent.com/YohakuSama/loonkit/673e2b470b45f291ebf15bbf9dca232d10709bad/rules/releases/v7.0.5/TikTok.lsr, policy=TikTok, tag=TikTok, enabled=true
-https://raw.githubusercontent.com/YohakuSama/loonkit/673e2b470b45f291ebf15bbf9dca232d10709bad/rules/releases/v7.0.3/Bilibili.lsr, policy=Bilibili, tag=Bilibili, enabled=true
-https://raw.githubusercontent.com/YohakuSama/loonkit/673e2b470b45f291ebf15bbf9dca232d10709bad/rules/releases/v7.0.3/Telegram.lsr, policy=Telegram, tag=Telegram, enabled=true
-https://raw.githubusercontent.com/YohakuSama/loonkit/673e2b470b45f291ebf15bbf9dca232d10709bad/rules/releases/v7.0.3/Instagram.lsr, policy=Instagram, tag=Instagram, enabled=true
-https://raw.githubusercontent.com/YohakuSama/loonkit/673e2b470b45f291ebf15bbf9dca232d10709bad/rules/releases/v7.0.3/Twitter.lsr, policy=Twitter, tag=Twitter, enabled=true
-https://raw.githubusercontent.com/YohakuSama/loonkit/673e2b470b45f291ebf15bbf9dca232d10709bad/rules/releases/v7.0.3/Google.lsr, policy=Google, tag=Google, enabled=true
-https://raw.githubusercontent.com/YohakuSama/loonkit/673e2b470b45f291ebf15bbf9dca232d10709bad/rules/releases/v7.0.3/Microsoft.lsr, policy=Microsoft, tag=Microsoft, enabled=true
-https://raw.githubusercontent.com/YohakuSama/loonkit/673e2b470b45f291ebf15bbf9dca232d10709bad/rules/releases/v7.0.3/Apple.lsr, policy=Apple, tag=Apple, enabled=true
-https://raw.githubusercontent.com/YohakuSama/loonkit/673e2b470b45f291ebf15bbf9dca232d10709bad/rules/releases/v7.0.3/Steam.lsr, policy=Steam, tag=Steam, enabled=true
-https://raw.githubusercontent.com/YohakuSama/loonkit/673e2b470b45f291ebf15bbf9dca232d10709bad/rules/releases/v7.0.3/Paypal.lsr, policy=Paypal, tag=Paypal, enabled=true
-https://raw.githubusercontent.com/YohakuSama/loonkit/673e2b470b45f291ebf15bbf9dca232d10709bad/rules/releases/v7.0.5/ChinaDirect.lsr, policy=DIRECT, tag=DIRECT, enabled=true
+https://raw.githubusercontent.com/Ch40sEr3n/LoonSelf/main/rules/upstream/AdBlockBalanced.lsr, policy=AdBlock, tag=AdBlock, enabled=true
+https://raw.githubusercontent.com/Ch40sEr3n/LoonSelf/main/rules/upstream/DomesticCore.lsr, policy=DIRECT, tag=DIRECT, enabled=true
+https://raw.githubusercontent.com/Ch40sEr3n/LoonSelf/main/rules/upstream/DomesticSupplement.lsr, policy=DIRECT, tag=DIRECT, enabled=true
+https://raw.githubusercontent.com/Ch40sEr3n/LoonSelf/main/rules/upstream/SteamCN.lsr, policy=DIRECT, tag=DIRECT, enabled=true
+https://raw.githubusercontent.com/Ch40sEr3n/LoonSelf/main/rules/upstream/DomesticAI.lsr, policy=DIRECT, tag=DIRECT, enabled=true
+https://raw.githubusercontent.com/Ch40sEr3n/LoonSelf/main/rules/upstream/ChatGPT.lsr, policy=ChatGPT, tag=ChatGPT, enabled=true
+https://raw.githubusercontent.com/Ch40sEr3n/LoonSelf/main/rules/upstream/Gemini.lsr, policy=Gemini, tag=Gemini, enabled=true
+https://raw.githubusercontent.com/Ch40sEr3n/LoonSelf/main/rules/upstream/GitHub.lsr, policy=GitHub, tag=GitHub, enabled=true
+https://raw.githubusercontent.com/Ch40sEr3n/LoonSelf/main/rules/upstream/Speedtest.lsr, policy=Speedtest, tag=Speedtest, enabled=true
+https://raw.githubusercontent.com/Ch40sEr3n/LoonSelf/main/rules/upstream/Cloudflare.lsr, policy=Cloudflare, tag=Cloudflare, enabled=true
+https://raw.githubusercontent.com/Ch40sEr3n/LoonSelf/main/rules/upstream/Service-Spotify.lsr, policy=Spotify, tag=Spotify, enabled=true
+https://raw.githubusercontent.com/Ch40sEr3n/LoonSelf/main/rules/upstream/Service-Twitch.lsr, policy=Twitch, tag=Twitch, enabled=true
+https://raw.githubusercontent.com/Ch40sEr3n/LoonSelf/main/rules/upstream/SharedInfrastructure.lsr, policy=Proxy, tag=Proxy, enabled=true
+https://raw.githubusercontent.com/Ch40sEr3n/LoonSelf/main/rules/upstream/AppleOTA.lsr, policy=Apple, tag=Apple, enabled=true
+https://raw.githubusercontent.com/Ch40sEr3n/LoonSelf/main/rules/upstream/SteamGlobal.lsr, policy=Steam, tag=Steam, enabled=true
+https://raw.githubusercontent.com/Ch40sEr3n/LoonSelf/main/rules/upstream/YouTube.lsr, policy=YouTube, tag=YouTube, enabled=true
+https://raw.githubusercontent.com/Ch40sEr3n/LoonSelf/main/rules/upstream/Netflix.lsr, policy=Netflix, tag=Netflix, enabled=true
+https://raw.githubusercontent.com/Ch40sEr3n/LoonSelf/main/rules/upstream/TikTok.lsr, policy=TikTok, tag=TikTok, enabled=true
+https://raw.githubusercontent.com/Ch40sEr3n/LoonSelf/main/rules/upstream/Bilibili.lsr, policy=Bilibili, tag=Bilibili, enabled=true
+https://raw.githubusercontent.com/Ch40sEr3n/LoonSelf/main/rules/upstream/Telegram.lsr, policy=Telegram, tag=Telegram, enabled=true
+https://raw.githubusercontent.com/Ch40sEr3n/LoonSelf/main/rules/upstream/Instagram.lsr, policy=Instagram, tag=Instagram, enabled=true
+https://raw.githubusercontent.com/Ch40sEr3n/LoonSelf/main/rules/upstream/Twitter.lsr, policy=Twitter, tag=Twitter, enabled=true
+https://raw.githubusercontent.com/Ch40sEr3n/LoonSelf/main/rules/upstream/Google.lsr, policy=Google, tag=Google, enabled=true
+https://raw.githubusercontent.com/Ch40sEr3n/LoonSelf/main/rules/upstream/Microsoft.lsr, policy=Microsoft, tag=Microsoft, enabled=true
+https://raw.githubusercontent.com/Ch40sEr3n/LoonSelf/main/rules/upstream/Apple.lsr, policy=Apple, tag=Apple, enabled=true
+https://raw.githubusercontent.com/Ch40sEr3n/LoonSelf/main/rules/upstream/Steam.lsr, policy=Steam, tag=Steam, enabled=true
+https://raw.githubusercontent.com/Ch40sEr3n/LoonSelf/main/rules/upstream/Paypal.lsr, policy=Paypal, tag=Paypal, enabled=true
+https://raw.githubusercontent.com/Ch40sEr3n/LoonSelf/main/rules/upstream/ChinaDirect.lsr, policy=DIRECT, tag=DIRECT, enabled=true
 
 [Host]
 dns.alidns.com = 223.5.5.5
 
 [Rule]
-# Lumen：主域名与子域名均固定直连
 DOMAIN-SUFFIX,lumenvids.com,Lumen
 DOMAIN-SUFFIX,raw.githubusercontent.com,GitHub
 DOMAIN,gemini.google.com,Gemini

@@ -1,5 +1,4 @@
-# LoonKit v7.0.10 — Personal
-# 基于 LoonKit 原版精简；来源：https://github.com/YohakuSama/loonkit
+# LoonSelf — generated public configuration
 
 [General]
 dns-server = 223.5.5.5,223.6.6.6
@@ -46,7 +45,6 @@ Microsoft = select,DIRECT,Proxy,Auto,Fallback,ALL_Filter,img-url = https://raw.g
 Apple = select,DIRECT,Proxy,Auto,Fallback,ALL_Filter,img-url = https://raw.githubusercontent.com/YohakuSama/loonkit/d82214d057b27a68d6b9c07c61fb126a69adc903/icons/Apple.png
 Cloudflare = select,Proxy,Auto,Fallback,ALL_Filter,img-url = https://raw.githubusercontent.com/YohakuSama/loonkit/d82214d057b27a68d6b9c07c61fb126a69adc903/icons/Cloudflare.png
 Speedtest = select,DIRECT,Proxy,Auto,Fallback,ALL_Filter,img-url = https://raw.githubusercontent.com/YohakuSama/loonkit/d82214d057b27a68d6b9c07c61fb126a69adc903/icons/Speedtest.png
-# 影音：Lumen 固定直连
 Lumen = select,DIRECT,img-url = https://www.lumen.ax/avatar-default.png
 YouTube = select,Proxy,Auto,Fallback,ALL_Filter,img-url = https://raw.githubusercontent.com/YohakuSama/loonkit/d82214d057b27a68d6b9c07c61fb126a69adc903/icons/YouTube.png
 Netflix = select,Proxy,Auto,Fallback,ALL_Filter,img-url = https://raw.githubusercontent.com/YohakuSama/loonkit/d82214d057b27a68d6b9c07c61fb126a69adc903/icons/Netflix.png
@@ -94,7 +92,6 @@ https://raw.githubusercontent.com/Ch40sEr3n/LoonSelf/main/rules/upstream/ChinaDi
 dns.alidns.com = 223.5.5.5
 
 [Rule]
-# Lumen：主域名与子域名均固定直连
 DOMAIN-SUFFIX,lumenvids.com,Lumen
 DOMAIN-SUFFIX,raw.githubusercontent.com,GitHub
 DOMAIN,gemini.google.com,Gemini
