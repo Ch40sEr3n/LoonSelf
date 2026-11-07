@@ -10,7 +10,7 @@ interface-mode = auto
 sni-sniffing = true
 skip-proxy = 127.0.0.0/8,10.0.0.0/8,172.16.0.0/12,192.168.0.0/16,localhost,*.local,captive.apple.com
 bypass-tun = 10.0.0.0/8,100.64.0.0/10,127.0.0.0/8,169.254.0.0/16,172.16.0.0/12,192.0.0.0/24,192.0.2.0/24,192.88.99.0/24,192.168.0.0/16,198.51.100.0/24,203.0.113.0/24,224.0.0.0/4,255.255.255.255/32
-real-ip = *.apple.com,*.icloud.com,dns.msftncsi.com,*.srv.nintendo.net,*.xboxlive.com
+real-ip = *.apple.com,*.icloud.com,dns.msftncsi.com,*.srv.nintendo.net,*.xboxlive.com,cmpassport.com,*.cmpassport.com
 disable-stun = true
 udp-fallback-mode = REJECT
 domain-reject-mode = DNS
@@ -94,6 +94,7 @@ https://raw.githubusercontent.com/Ch40sEr3n/LoonSelf/main/rules/upstream/ChinaDi
 dns.alidns.com = 223.5.5.5
 
 [Rule]
+DOMAIN-SUFFIX,cmpassport.com,DIRECT
 DOMAIN-SUFFIX,lumenvids.com,Lumen
 DOMAIN-SUFFIX,raw.githubusercontent.com,GitHub
 DOMAIN,gemini.google.com,Gemini
